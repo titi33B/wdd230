@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    background-color: #5b0c42;
+    color: #ddcccc;
+    border-radius: 50px 50px 50px 50px;
+    padding: 1.5em;
+    align-items: center;
+    gap: 5rem;
+  }
+img {
+  width: 200 px;
+  height: auto;
+  
+}
+h1 {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin: 0.15rem;
+    text-align: center;
+    
+}
+h2 {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: left;
+}
+main {
+  text-transform: capitalize;
+}
+
+.main-container {
+  margin: 0;
+}
+.lesson-content {
+  padding: 0;
+}
+footer {
+  background-color: #5b0c42;
+  color: #FFFFFF;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+  
+}
+
+body {
+    background-color: #E6E6FA;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+  
+  }
