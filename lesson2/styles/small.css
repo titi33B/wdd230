@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(105, 4, 105);
+  color: rgb(236, 222, 235);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+header h1 {
+  color: white;
+  font-family: "Abril Fatface";
+  font-weight: 10;
+  font-size: 40px;
+}
+header h2 {
+  font-size: 25px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  margin: 50px;
+}
+section {
+  display: block;
+  border: 1px solid rgb(227, 200, 226);
+  background-color: rgb(184, 175, 175);
+  text-align: left;
+  margin: 0 auto;
+}
+.principle {
+  margin: 10px;
+}
+section h3 {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(224, 64, 219);
+  padding: 10px;
+  margin: 0;
+  text-decoration-line:;
+}
+section h4 {
+  font-size: 18px;
+  color:rgb(125, 20, 149);
+  padding: 10px;
+  margin: 0;
+}
+section a {
+  color: rgb(73, 134, 248);
+  text-decoration: none;
+  padding: 10px;
+}
+section p {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  color:rgb(113, 2, 110);
+}
+section img {
+  display: block;
+  max-width: 90%;
+  border: 2px solid rgb(246, 246, 246);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  background-color: rgb(105, 4, 105);
+  color: rgb(211, 211, 225);
+  padding: 20px;
+  margin-top: 20px;
+}
