@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>redlands Chamber of Commerce</title>    
+</head>
+<body>
+    <div id="message"></div>
+	<header>
+        <div class="headname">
+                <img class="logo" src="images/logo.jpg" alt="Port Vila Chamber of Commerce">
+                <h1 class="header-title">Redlands Chamber of Commerce</h1>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://mobile.twitter.com/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+        </div>
+    <div>
+        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+    </div>
+    <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    <div class="date-header">
+        <p id="datetime"></p>
+    </div>
+</header>
+<main>
+    <div class="hero">
+        <picture class="photo">
+            <source media="(max-width: 600px)" srcset="images/wdd230-org-smallwebp">
+            <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.webp">
+            <source media="(max-width: 1024px)" srcset="images/wdd230-org-large.webp">
+            <img src="images/wdd230-org-large.webp" alt="chamber">
+          </picture>
+        <button class="call-to-action">Join the Chamber</button>
+    </div>
+
+<div class="event">
+    <h3>redlands Major Event.</h3>
+    <ol>
+        <li>Theater Festival</li>
+        <li>Fireworkrs show</li>
+        <li>Bike classic Festival</li>
+        <li>Saterday farmers market Festival</li>
+        <li>Touch A-Truck Festival</li>
+        <li>Ripple Theater Festival</li>
+    </ol>
+</div>
+
+<div class="weather">
+    <h3>Redlands Weather Condition</h3>
+<div  class="weather-div">
+    <picture>
+        <img src="images/cloudy.jpg" alt="weather-icon">
+     </picture>
+     <h3 id="temperature"><span id="temperature">9</span>°C</h3>
+    </div> 
+    <h4 id="description-temperature">Description</h4>
+    <hr>
+    <p>Wind Speed: <span id="speed">16</span>km/h</p>
+    <p>Wind Chill: <span id="windchill"></span></p>
+</div>
+<div class="news">
+    <span id="news-date">Jan. 14, 2023</span>
+    <p> A few months ago, the Chambers Executive Director attended a meeting with key stakeholders,
+        and had the opportunity to share the concerns of our members with city staff and members of the council.
+        We appreciated the opportunity to collaborate and work to come up with the best idea possible to address the concerns of so many, 
+        when it comes to Market Night.   
+    </p>
+</div>
+
+<div class="joinbutton">
+    <button class="join-us">Join Us!</button>
+    <p>Join Redlands Chamber of Commerce. It will benefit your business.</p>
+</div>
+
+<aside class="aside">
+    <div>
+        <b>Redlands Tourism</b><br><br>
+        <p>The city is known for its Victorian and historical architecture, Market Night street faire and farmers market, orange groves, Lincoln Memorial Shrine, and the Redlands Bowl. 
+        Downtown Redlands is the place to do your shopping! Shops with the latest styles in home decor, craft supplies, up-to-the-minute clothing, skate and snowboarding merchandise, 
+        and personal services are just a sampling of what's available to you.</p>
+    </div>
+
+    <div>
+        <b>Market Night</b><br><br>
+        <p> Jan 14, 2023, the Parks and Recreation Commission formed a subcommittee to discuss the re-opening of Market Night and at their May meeting,
+         the subcommittee recommended that Market Night be reintroduced with some modifications. 
+         These modifications addressed limited staffing levels as well as a transition back to full operations.</p>                                            
+    </div>
+    <div class="spotlight3">
+        <b>Business and Econommic Development</b><br><br>
+        <p> is the location of choice for some of the top consumer,technology and healthcare companies in the country.
+         Companies that continue to thrive in a community that blends the best of Southern California's work and play lifestyle.</p>
+  </div>
+</aside>
+</main>   
+    <footer>
+        <div class="logo-footer">
+        <img class="logo" src="images/logo.jpg" alt="Chamber of Commerce">
+        </div>
+        <div class="title-footer">
+            <h2>Redlands Chamber of Commerce</h2>
+        </div>
+        <div class="contact">
+            <p>info@gmail.com</p>
+            <p>+(909)900 8908</p>
+           
+            <a href="https://www.google.com/maps/place/Redlands,+CA/@34.1488565,-117.3646848,12z/data=!4m6!3m5!1s0x80db53c64196b143:0x75d9e9ca3bdbba67!8m2!3d34.0555693!4d-117.1825381!16s%2Fg%2F11hch_9hgk">📍 Location</a>
+                <br><br>
+        </div>
+        <div class="info">
+            <span>  &nbsp; &nbsp; &copy;<span id="©">
+            </span>  &nbsp; Redlands Chamber of Commerce &nbsp;</span> |  &nbsp; Tizibt Teresa &nbsp; |  &nbsp; WDD 230 Project &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+        </div>
+  </footer>  
+<script src="./scripts/scripts.js"></script>
+</body>
+</html>
+    
+    
+
+ 
