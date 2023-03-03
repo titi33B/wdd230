@@ -6,48 +6,6 @@
     color: #f4f7f5;
 }
 
-.hero .container{
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height:auto;
-    
-  }
-  img {
-    width: 100%;
-    height:auto;
-  }
-  .large {
-    background: none;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    color:red ;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-  }
-
-  .small{
-    width: 80%;
-    display: none;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    color:red ;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-  }
-
-  .medium{
-    width: 60%;
-    display: none;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    color:red ;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-  }
 
 * {
 	margin: 0;
@@ -341,7 +299,6 @@ span {
         display: inline;
     }
     
-    
 .weather p {
         position: relative;
         padding-left: 0;
@@ -355,7 +312,67 @@ span {
         border-radius: 50px;
     }
     
+main picture.photo img {width: 100%;}
+main picture.photo figcaption {text-align: center; font-size: .75rem;}
 
-    
 
+main picture.photo img {
+  width: 100%;
+}
 
+picture.photo {
+    display: block;
+    width: 96%;
+    margin: 0 3%;
+}
+
+figure{
+    margin: 0 auto;
+}
+img[data-src] {
+    filter: blur(3px);
+}
+
+.localstorage {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #18c6f1;
+    border-radius: 5px;
+    border: black;
+}
+
+.localstorage:hover{
+    background-color: #ff7d00;
+}
+.mypictures {
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+    justify-content: center;
+    grid-row-gap: 40px;
+    padding: 10px;
+    margin-bottom: auto;  
+}
+
+.mypictures figcaption {
+    background-color: #FFECD1;
+    border: thin silver solid;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;  
+}
+
+.mypictures img {
+    filter: blur(0px);
+    transition: filter 0.6s;
+    max-width:100%; 
+}
+
+picture{
+    margin: 0 auto;
+}
+#copy {
+    font-size: 20px;
+}

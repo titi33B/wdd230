@@ -122,48 +122,22 @@
 	.join-us:hover{
 		background-color: tomato;
 	}
-	.hero .container{
-        position: relative;
-        text-align: center;
-        width: 100%;
-        height:auto;
-        
-      }
-	  img {
-        width: 100%;
-        height:auto;
-      }
-      .large {
-        background: none;
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        color:red ;
-        font-size: 40px;
-        transform: translate(-50%, -50%);
-      }
 
-      .small{
-        display: none;
-		background: none;
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        color:red ;
-        font-size: 40px;
-        transform: translate(-50%, -50%);
-      }
-
-      .medium{
-        display: none;
-		background: none;
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        color:red ;
-        font-size: 40px;
-        transform: translate(-50%, -50%);
-      }
 }
-     
-	  
+
+.mypictures {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    grid-gap: 10px;
+    height: 80%;
+}
+
+.mypictures figcaption {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border: thin silver solid;
+}
+

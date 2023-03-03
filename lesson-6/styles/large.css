@@ -1,5 +1,47 @@
 @media (min-width: 48em) {
-	
+	.hero .container{
+        position: relative;
+        text-align: top;
+        width: 100%;
+        height:auto;
+        
+      }
+
+      img {
+        width: 100%;
+        height:auto;
+      }
+      .large {
+        background: none;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+
+      .small{
+        display: none;
+        background: none;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+
+      .medium{
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+
     header div button {
         display: none;
     }
