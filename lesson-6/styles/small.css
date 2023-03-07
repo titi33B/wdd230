@@ -28,7 +28,6 @@
   }
 
   .small{
-    width: 80%;
     display: none;
     position: absolute;
     top: 60%;
@@ -39,7 +38,6 @@
   }
 
   .medium{
-    width: 60%;
     display: none;
     position: absolute;
     top: 80%;
