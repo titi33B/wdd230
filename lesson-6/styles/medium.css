@@ -1,5 +1,5 @@
 
-@media (min-width: 37.5em) {
+@media (min-width: 60em) {
 	
 	sidemenu {
 		display: flex;
@@ -129,7 +129,7 @@
         height:auto;
         
       }
-	  img {
+	  .hero img {
         width: 100%;
         height:auto;
       }

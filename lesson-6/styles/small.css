@@ -13,19 +13,11 @@
     height:auto;
     
   }
-  img {
+  .hero img {
     width: 100%;
     height:auto;
   }
-  .large {
-    background: none;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    color:red ;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-  }
+  
 
   .small{
     display: none;
@@ -46,7 +38,15 @@
     font-size: 40px;
     transform: translate(-50%, -50%);
   }
-
+  .large {
+    background: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color:red ;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+  }
 * {
 	margin: 0;
 	padding: 0;
