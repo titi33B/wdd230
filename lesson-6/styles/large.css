@@ -1,4 +1,35 @@
-@media (min-width: 48em) {
+@media (min-width: 769px) {
+    .small{
+        display: none;
+        background: none;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+    
+      .medium{
+        background: none;
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+      .large {
+        position: absolute;
+        background: none;
+        top: 80%;
+        left: 50%;
+        color:red ;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+      }
+    }
 	.hero .container{
         position: relative;
         text-align: top;
@@ -13,7 +44,7 @@
 
       }
         
-      }
+      
 
     header div button {
         display: none;

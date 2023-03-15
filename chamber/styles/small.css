@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 :root {
     --font-color: #282828;
     --main-color: #cc7376;
@@ -7,6 +11,9 @@
 }
 body {
     font-family: var(--main-font);
+    width: 100%;
+    margin: o  auto;
+    text-align: center;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
@@ -189,3 +196,103 @@ footer {
     text-align: center;
     padding: 0.5rem;
 }
+main h1, h2, h3, h4, p, li {
+    padding: 10px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+
+aside {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+main div {
+    background-color: rgb(241, 162, 162);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.join {
+    display: none;
+}
+
+.spotlight3 {
+    display: none;
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.date-header {
+    text-align: center;
+}
+
+.hide-small {
+    display: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.hero {
+    position: relative;
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    padding: 12px;
+    min-width: 100px;;
+    width: 50%;
+    background-color: dodgerblue;
+    box-shadow: 0 10px 30px #121335;
+    border: none;
+}
+
+.call-to-action:hover {
+    background-color: tomato;
+}
+
+
+.text-join {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.banner-message {
+    width: 100%;
+    background-color: #ff7d00;
+    color: #DEE5E5;
+    padding: 8px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#temperature {
+    text-align: right;
+    font-size: 20px;
+    right: 15px;
+}
+
+.contact a {
+    font-size: 20px;
+}
+

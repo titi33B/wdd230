@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+@media (max-width:420px) {
 .colored {
     background-color: white;
     color: #f4f7f5;
@@ -20,8 +21,8 @@
   
 
   .small{
-    display: none;
     position: absolute;
+    background: none;
     top: 60%;
     left: 50%;
     color:red ;
@@ -31,14 +32,6 @@
 
   .medium{
     display: none;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    color:red ;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-  }
-  .large {
     background: none;
     position: absolute;
     top: 80%;
@@ -47,6 +40,17 @@
     font-size: 40px;
     transform: translate(-50%, -50%);
   }
+  .large {
+    display: none;
+    background: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color:red ;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+  }
+}
 * {
 	margin: 0;
 	padding: 0;
